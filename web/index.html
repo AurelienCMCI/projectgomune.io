@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gomune</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/phosphor-icons@1.4.2/src/css/icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- PAGE HOME -->
+<section id="page-home" class="page">
+<!-- TOP BAR -->
+<header class="top-bar">
+<!-- ENTÊTE GOMUNE -->
+<header class="app-header">
+  <div class="app-brand">
+    <img
+      src="https://zybrljoolhqnqvbyzowc.supabase.co/storage/v1/object/sign/Audios/Sans%20titre-2.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9iNWZmZmFkZi05NzY0LTQ2YjEtYTFlMS00NjBkZjA1NzkwYzAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBdWRpb3MvU2FucyB0aXRyZS0yLnBuZyIsImlhdCI6MTc2ODc0OTg5MCwiZXhwIjoxODAwMjg1ODkwfQ.dn1l_9GSY6caxoAZ0OYCDuuPuaVq8cqkqQNPTr1uzKo"
+      alt="Gomune"
+      class="app-logo"
+    >
+    <span class="app-name">Gomune</span>
+  </div>
+</header>
+  <input class="search" placeholder="Rechercher artistes, titres, laylists, amis">
+</header>
+  <!-- ONGLET HOME -->
+<div class="home-tabs">
+  <button class="home-tab active" data-tab="for-you">Pour vous</button>
+  <button class="home-tab" data-tab="trending">Tendance</button>
+  <button class="home-tab" data-tab="videos">Shorts</button>
+</div>
+<div class="stories-ig">
+
+  <!-- VOTRE STORY (À GAUCHE) -->
+  <div class="story-card add-story">
+    <div class="story-ring add-ring">
+      <span class="plus">+</span>
+    </div>
+    <span>Votre story</span>
+  </div>
+
+  <!-- STORIES NORMALES -->
+  <div class="story-card">
+    <div class="story-ring">
+      <img src="https://picsum.photos/100?1">
+    </div>
+    <span>Jordan</span>
+  </div>
+
+  <div class="story-card">
+    <div class="story-ring">
+      <img src="https://picsum.photos/100?2">
+    </div>
+    <span>Visites</span>
+  </div>
+
+  <div class="story-card">
+    <div class="story-ring">
+      <img src="https://picsum.photos/100?3">
+    </div>
+    <span>Hillsong</span>
+  </div>
+
+</div>
+
+<!-- ACTIVITÉES RECENTES -->
+<section class="section chat-section">
+
+  <div class="section-header">
+    <h3>Activité récente</h3>
+  </div>
+
+  <div class="activity-mini-scroll">
+
+    <!-- MESSAGE -->
+    <div class="activity-mini unread">
+      <img src="https://picsum.photos/80?u1">
+      <i class="ph-chat-circle"></i>
+      <span>Message</span>
+    </div>
+
+    <!-- APPEL MANQUÉ -->
+    <div class="activity-mini missed">
+      <img src="https://picsum.photos/80?u2">
+      <i class="ph-phone-incoming"></i>
+      <span>Appel</span>
+    </div>
+
+    <!-- DEMANDE D'AJOUT -->
+    <div class="activity-mini request">
+      <img src="https://picsum.photos/80?u3">
+      <i class="ph-user-plus"></i>
+      <span>Ajout</span>
+    </div>
+
+    <!-- AJOUT MUTUEL -->
+    <div class="activity-mini added">
+      <img src="https://picsum.photos/80?u4">
+      <i class="ph-users"></i>
+      <span>Amis</span>
+    </div>
+
+    <!-- INVITATION MUSICALE -->
+    <div class="activity-mini music">
+      <img src="https://picsum.photos/80?u5">
+      <i class="ph-music-notes"></i>
+      <span>Écouter</span>
+    </div>
+
+  </div>
+
+</section>
+<section class="section news-section">
+
+  <div class="section-header">
+    <h3>Les actualités</h3>
+  </div>
+
+  <div class="news-list">
+
+    <!-- ACTU -->
+    <div class="news-item">
+      <img src="https://picsum.photos/120?actu1">
+
+      <div class="news-info">
+        <strong>
+          <i class="ph-music-notes"></i>
+          Nouveau single disponible
+        </strong>
+        <span>Jordan Merrick dévoile son nouveau titre.</span>
+        <small>Il y a 2 heures</small>
+      </div>
+    </div>
+
+    <!-- ACTU -->
+    <div class="news-item">
+      <img src="https://picsum.photos/120?actu2">
+
+      <div class="news-info">
+        <strong>
+          <i class="ph-calendar"></i>
+          Concert à venir
+        </strong>
+        <span>Rendez-vous le 25 avril à Bruxelles.</span>
+        <small>Hier</small>
+      </div>
+    </div>
+
+    <!-- ACTU -->
+    <div class="news-item">
+      <img src="https://picsum.photos/120?actu3">
+
+      <div class="news-info">
+        <strong>
+          <i class="ph-star"></i>
+          Artiste à l'honneur
+        </strong>
+        <span>Sinach rejoint Gomune Premium.</span>
+        <small>Il y a 3 jours</small>
+      </div>
+    </div>
+
+  </div>
+ 
+</section>
+  <div class="gomune-card">
+  <button class="gomune-close">✕</button>
+
+  <div class="gomune-header">
+    <img src="https://zybrljoolhqnqvbyzowc.supabase.co/storage/v1/object/sign/Audios/Sans%20titre-2.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9iNWZmZmFkZi05NzY0LTQ2YjEtYTFlMS00NjBkZjA1NzkwYzAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJBdWRpb3MvU2FucyB0aXRyZS0yLnBuZyIsImlhdCI6MTc2ODc0OTg5MCwiZXhwIjoxODAwMjg1ODkwfQ.dn1l_9GSY6caxoAZ0OYCDuuPuaVq8cqkqQNPTr1uzKo" alt="Gomune logo" class="gomune-logo">
+    <h2>Gomune</h2>
+  </div>
+
+  <div class="gomune-content">
+    <h3>Découvrez 100 millions de communautés.<br>Sans aucune publicité.</h3>
+
+    <p>
+      Profitez aussi de toute votre expérience communautaire sur tous vos appareils.
+      L'accès premium se renouvellera automatiquement pour 10,99 € / mois.
+    </p>
+
+    <button class="gomune-cta">Essayez maintenant</button>
+    <a href="#" class="gomune-link">Afficher tous les forfaits</a>
+  </div>
+</div>
+<!-- TOP HITS -->
+<section class="section home-section">
+  <h3>Top Hits Gomune</h3>
+  <div class="list">
+    <div class="track">
+      <img src="https://picsum.photos/80?11">
+      <div>
+        <strong>Nuit étoilée</strong>
+        <span>Jordan Merrick</span>
+      </div>
+    </div>
+    <div class="track">
+      <img src="https://picsum.photos/80?12">
+      <div>
+        <strong>Grâce infinie</strong>
+        <span>Visites</span>
+      </div>
+    </div>
+    <div class="track">
+      <img src="https://picsum.photos/80?13">
+      <div>
+        <strong>Lumière</strong>
+        <span>Elevation</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section home-section">
+  <h3>Suggestions pour vous · Artistes</h3>
+
+  <div class="suggestions">
+
+    <div class="suggest-card">
+      <img src="https://picsum.photos/120?artist21">
+      <strong>Jordan Merrick</strong>
+      <button class="btn follow">Suivre</button>
+    </div>
+
+    <div class="suggest-card">
+      <img src="https://picsum.photos/120?artist22">
+      <strong>Hillsong</strong>
+      <button class="btn follow">Suivre</button>
+    </div>
+
+    <div class="suggest-card">
+      <img src="https://picsum.photos/120?artist23">
+      <strong>Bethel Music</strong>
+      <button class="btn follow">Suivre</button>
+    </div>
+
+  </div>
+</section>
+  <section class="section home-section">
+  <div class="section-header">
+    <h3>Reels · Pour vous</h3>
+    <span class="see-all">Voir tout</span>
+  </div>
+
+  <div class="horizontal-scroll reels-scroll">
+
+    <!-- REEL ARTISTE -->
+    <div class="reel-card">
+
+      <img src="https://picsum.photos/300/520?reel1" alt="reel">
+
+      <!-- OVERLAY -->
+      <div class="reel-overlay">
+
+        <!-- PLAY -->
+        <div class="reel-play">
+          <i class="ph-play"></i>
+        </div>
+
+        <!-- ACTIONS -->
+        <div class="reel-actions">
+          <div><i class="ph-heart"></i><span>12k</span></div>
+          <div><i class="ph-chat-circle"></i><span>320</span></div>
+          <div><i class="ph-share-network"></i></div>
+        </div>
+      </div>
+
+      <!-- PROFIL -->
+      <div class="reel-profile">
+        <img src="https://picsum.photos/60?artist1">
+        <div class="reel-user">
+          <strong>Hillsong</strong>
+          <span>Artiste</span>
+        </div>
+        <button class="btn follow">Suivre</button>
+      </div>
+    </div>
+
+    <!-- REEL UTILISATEUR -->
+    <div class="reel-card">
+
+      <img src="https://picsum.photos/300/520?reel2" alt="reel">
+
+      <!-- OVERLAY -->
+      <div class="reel-overlay">
+
+        <!-- PLAY -->
+        <div class="reel-play">
+          <i class="ph-play"></i>
+        </div>
+
+        <!-- ACTIONS -->
+        <div class="reel-actions">
+          <div><i class="ph-heart"></i><span>5k</span></div>
+          <div><i class="ph-chat-circle"></i><span>120</span></div>
+          <div><i class="ph-share-network"></i></div>
+        </div>
+      </div>
+
+      <!-- PROFIL -->
+      <div class="reel-profile">
+        <img src="https://picsum.photos/60?user1">
+        <div class="reel-user">
+          <strong>Sarah</strong>
+          <span>Utilisateur</span>
+        </div>
+        <button class="btn add">Ajouter</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+  <!-- ÉVÉNEMENTS À VENIR -->
+<section class="section">
+
+  <div class="section-header">
+    <h3>Événements à venir</h3>
+    <span class="see-all">Voir tout</span>
+  </div>
+
+  <div class="horizontal-scroll">
+
+    <div class="event-card">
+      <img src="https://picsum.photos/300/200?event1" alt="event">
+      <div class="event-info">
+        <strong>Soirée Louange Live</strong>
+        <span>📅 25 Avril · Paris</span>
+        <button class="btn reserve">Réserver</button>
+      </div>
+    </div>
+
+    <div class="event-card">
+      <img src="https://picsum.photos/300/200?event2" alt="event">
+      <div class="event-info">
+        <strong>Concert Gospel</strong>
+        <span>📅 3 Mai · Bruxelles</span>
+        <button class="btn reserve">Réserver</button>
+      </div>
+    </div>
+
+    <div class="event-card">
+      <img src="https://picsum.photos/300/200?event3" alt="event">
+      <div class="event-info">
+        <strong>Festival Worship</strong>
+        <span>📅 18 Mai · Lyon</span>
+        <button class="btn reserve">Réserver</button>
+      </div>
+    </div>
+
+  </div>
+<section class="section home-section premium-section">
+
+  <div class="premium-content">
+
+    <h3>
+      <i class="ph-crown"></i>
+      Profitez de Gomune Premium
+    </h3>
+
+    <p class="premium-text">
+      Passez à l'expérience Gomune ultime.
+      Écoutez votre musique chrétienne sans interruption,
+      découvrez des contenus exclusifs et soutenez directement
+      les artistes que vous aimez.
+    </p>
+
+    <ul class="premium-benefits">
+      <li>
+        <i class="ph-headphones"></i>
+        Écoute sans publicité
+      </li>
+      <li>
+        <i class="ph-download-simple"></i>
+        Téléchargement hors connexion
+      </li>
+      <li>
+        <i class="ph-star"></i>
+        Contenus & sorties exclusives
+      </li>
+      <li>
+        <i class="ph-heart"></i>
+        Soutien direct aux artistes
+      </li>
+    </ul>
+
+    <button class="btn premium-btn">
+      <i class="ph-lightning"></i>
+      S'abonner à Gomune Premium
+    </button>
+
+  </div>
+
+</section>
+</section>
+ <section class="gomune-offers">
+
+  <h2>Découvrez nos offres</h2>
+
+  <div class="offers-scroll">
+
+    <!-- STANDARD AVEC PUB -->
+    <div class="offer-card offer-ads">
+      <h3>Gomune Standard</h3>
+      <span class="offer-sub">Avec publicité</span>
+
+      <div class="price">5,99€ <small>/ mois</small></div>
+
+      <ul>
+        <li>Accès aux communautés</li>
+        <li>Fonctionnalités essentielles</li>
+        <li>Publicités incluses</li>
+      </ul>
+
+      <button class="btn-primary">S'abonner</button>
+      <button class="btn-secondary">Essayer 1 mois gratuit</button>
+    </div>
+
+    <!-- STANDARD SANS PUB -->
+    <div class="offer-card offer-noads">
+      <span class="badge">POPULAIRE</span>
+
+      <h3>Gomune Standard</h3>
+      <span class="offer-sub">Sans publicité</span>
+
+      <div class="price">8,99€ <small>/ mois</small></div>
+
+      <ul>
+        <li>Aucune publicité</li>
+        <li>Expérience fluide</li>
+        <li>Accès complet</li>
+      </ul>
+
+      <button class="btn-primary">S'abonner</button>
+      <button class="btn-secondary">Essayer 1 mois gratuit</button>
+    </div>
+
+    <!-- PREMIUM -->
+    <div class="offer-card offer-premium">
+      <h3>Gomune Premium</h3>
+      <span class="offer-sub">Expérience complète</span>
+
+      <div class="price">10,99€ <small>/ mois</small></div>
+
+      <ul>
+        <li>Tout le Standard sans pub</li>
+        <li>Fonctionnalités exclusives</li>
+        <li>Support prioritaire</li>
+      </ul>
+
+      <button class="btn-primary">S'abonner</button>
+      <button class="btn-secondary">Essayer 1 mois gratuit</button>
+    </div>
+
+  </div>
+</section> 
+<!-- NOUVEAUTÉS -->
+<section class="section home-section">
+  <h3>Nouveautés</h3>
+  <div class="carousel">
+    <div class="card"><img src="https://picsum.photos/200?14"><p>Foi</p></div>
+    <div class="card"><img src="https://picsum.photos/200?15"><p>Espoir</p></div>
+    <div class="card"><img src="https://picsum.photos/200?16"><p>Victoire</p></div>
+  </div>
+</section>
+<section class="section home-section">
+  <div class="section-header">
+    <h3>Top Hits Gomune</h3>
+    <span class="see-all">Voir tout</span>
+  </div>
+
+  <div class="horizontal-scroll">
+
+    <div class="track-card">
+      <img src="https://picsum.photos/120?11">
+      <strong>Nuit étoilée</strong>
+      <span>Jordan Merrick</span>
+    </div>
+
+    <div class="track-card">
+      <img src="https://picsum.photos/120?12">
+      <strong>Grâce infinie</strong>
+      <span>Visites</span>
+    </div>
+
+    <div class="track-card">
+      <img src="https://picsum.photos/120?13">
+      <strong>Lumière</strong>
+      <span>Elevation</span>
+    </div>
+
+    <div class="track-card">
+      <img src="https://picsum.photos/120?14">
+      <strong>Espoir</strong>
+      <span>Bethel</span>
+    </div>
+
+  </div>
+</section>
+  <section class="section news-section">
+
+  <div class="section-header">
+    <h3>À la une</h3>
+    <span class="see-all">Voir tout</span>
+  </div>
+
+  <div class="horizontal-scroll featured-scroll">
+
+    <!-- ARTICLE À LA UNE -->
+    <div class="featured-card">
+      <img src="https://picsum.photos/400/260?news1" alt="actualité">
+
+      <div class="featured-overlay">
+        <span class="featured-tag">
+          <i class="ph-megaphone"></i>
+          Événement
+        </span>
+
+        <h4>Soirée Louange Live à Paris</h4>
+        <p>Un moment unique de louange et de communion.</p>
+      </div>
+    </div>
+
+    <!-- ARTICLE À LA UNE -->
+    <div class="featured-card">
+      <img src="https://picsum.photos/400/260?news2" alt="actualité">
+
+      <div class="featured-overlay">
+        <span class="featured-tag">
+          <i class="ph-newspaper"></i>
+          Sortie
+        </span>
+
+        <h4>Nouvel album de Bethel Music</h4>
+        <p>Disponible en exclusivité sur Gomune.</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- Artistes populaire -->
+<section class="section home-section">
+  <h3>Artistes populaires sur Gomune</h3>
+  <div class="carousel">
+    <div class="artist"><img src="https://picsum.photos/120?17"><span>Bethel</span></div>
+    <div class="artist"><img src="https://picsum.photos/120?18"><span>Maverick</span></div>
+    <div class="artist"><img src="https://picsum.photos/120?19"><span>Sinach</span></div>
+    <div class="artist"><img src="https://picsum.photos/120?20"><span>Phil</span></div>
+  </div>
+</section>
+  <section class="section home-section">
+  <h3>Chaînes Gomune à suivre</h3>
+
+  <div class="channels-scroll">
+
+    <!-- CHAÎNE -->
+    <div class="channel-card">
+      <div class="channel-header">
+        <img class="channel-avatar" src="https://picsum.photos/120?channel1">
+        <div class="channel-meta">
+          <strong>drowzee</strong>
+          <span>@drowzeee</span>
+        </div>
+        <button class="btn follow">Suivre</button>
+      </div>
+
+      <div class="channel-tracks">
+        <div class="channel-track">
+          <img src="https://picsum.photos/60?11">
+          <div>
+            <span class="title">Juice WRLD – Wishing Well</span>
+            <small>12 M de vues</small>
+          </div>
+          <span class="more">⋯</span>
+        </div>
+
+        <div class="channel-track">
+          <img src="https://picsum.photos/60?12">
+          <div>
+            <span class="title">Lil Peep – 16 Lines</span>
+            <small>11 M de vues</small>
+          </div>
+          <span class="more">⋯</span>
+        </div>
+
+        <div class="channel-track">
+          <img src="https://picsum.photos/60?13">
+          <div>
+            <span class="title">Juice WRLD & XXX</span>
+            <small>4,6 M de vues</small>
+          </div>
+          <span class="more">⋯</span>
+        </div>
+      </div>
+    </div>
+<section class="section home-section sponsored-album">
+
+  <span class="sponsored-label">Sponsorisé</span>
+
+  <div class="sponsored-content">
+
+    <!-- COVER -->
+    <img
+      class="sponsored-cover"
+      src="https://picsum.photos/300?album1"
+      alt="Album sponsorisé"
+    >
+
+    <!-- INFOS -->
+    <div class="sponsored-info">
+      <strong class="album-title">Victoire Éternelle</strong>
+      <span class="album-artist">Elevation Worship</span>
+      <p class="album-desc">
+        Un nouvel album puissant, entre louange et adoration,
+        pour accompagner vos moments spirituels.
+      </p>
+
+      <!-- ACTIONS -->
+      <div class="sponsored-actions">
+        <button class="btn play">▶ Écouter</button>
+        <button class="btn save">＋ Ajouter</button>
+      </div>
+</div>
+  </div>
+
+</section>
+    <!-- DUPLIQUE POUR D'AUTRES CHAÎNES -->
+    <div class="channel-card">
+      <div class="channel-header">
+        <img class="channel-avatar" src="https://picsum.photos/120?channel2">
+        <div class="channel-meta">
+          <strong>Gospel Urban</strong>
+          <span>@gospelurban</span>
+        </div>
+        <button class="btn follow">Suivre</button>
+      </div>
+
+      <div class="channel-tracks">
+        <div class="channel-track">
+          <img src="https://picsum.photos/60?21">
+          <div>
+            <span class="title">Louange Live</span>
+            <small>2,1 M de vues</small>
+          </div>
+          <span class="more">⋯</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+  <!-- TOP 20 HITS -->
+<section class="section">
+
+  <div class="section-header">
+    <h3>Top 20 Hits Gomune</h3>
+    <span class="see-all">Voir tout</span>
+  </div>
+
+  <div class="horizontal-scroll top20-scroll">
+
+    <!-- GROUPE 1 (1–4) -->
+    <div class="top20-group">
+      <div class="top20-item">
+        <span class="rank">1</span>
+        <img src="https://picsum.photos/80?1">
+        <div class="track-info">
+          <strong>Nuit étoilée</strong>
+          <span>Jordan Merrick</span>
+        </div>
+        <span class="more">⋯</span>
+      </div>
+
+      <div class="top20-item">
+        <span class="rank">2</span>
+        <img src="https://picsum.photos/80?2">
+        <div class="track-info">
+          <strong>Grâce infinie</strong>
+          <span>Visites</span>
+        </div>
+        <span class="more">⋯</span>
+      </div>
+
+      <div class="top20-item">
+        <span class="rank">3</span>
+        <img src="https://picsum.photos/80?3">
+        <div class="track-info">
+          <strong>Lumière</strong>
+          <span>Elevation</span>
+        </div>
+        <span class="more">⋯</span>
+      </div>
+
+      <div class="top20-item">
+        <span class="rank">4</span>
+        <img src="https://picsum.photos/80?4">
+        <div class="track-info">
+          <strong>Espoir</strong>
+          <span>Bethel</span>
+        </div>
+        <span class="more">⋯</span>
+      </div>
+    </div>
+
+    <!-- GROUPE 2 (5–8) -->
+    <div class="top20-group">
+<div class="top20-group">
+      <div class="top20-item">
+        <span class="rank">5</span>
+        <img src="https://picsum.photos/80?1">
+        <div class="track-info">
+          <strong>Nuit étoilée</strong>
+          <span>Jordan Merrick</span>
+        </div>
+        <span class="more">⋯</span>
+      </div>
+
+      <div class="top20-item">
+        <span class="rank">6</span>
+        <img src="https://picsum.photos/80?2">
+        <div class="track-info">
+          <strong>Grâce infinie</strong>
+          <span>Visites</span>
+        </div>
+        <span class="more">⋯</span>
+      </div>
+
+      <div class="top20-item">
+        <span class="rank">7</span>
+        <img src="https://picsum.photos/80?3">
+        <div class="track-info">
+          <strong>Lumière</strong>
+          <span>Elevation</span>
+        </div>
+        <span class="more">⋯</span>
+      </div>
+
+      <div class="top20-item">
+        <span class="rank">8</span>
+        <img src="https://picsum.photos/80?4">
+        <div class="track-info">
+          <strong>Espoir</strong>
+          <span>Bethel</span>
+        </div>
+        <span class="more">⋯</span>
+      </div>
+    </div>
+    </div>
+
+    <!-- GROUPE 3 (9–12) -->
+    <div class="top20-group"></div>
+
+    <!-- GROUPE 4 (13–16) -->
+    <div class="top20-group"></div>
+
+    <!-- GROUPE 5 (17–20) -->
+    <div class="top20-group"></div>
+
+  </div>
+
+</section>
+  <!-- SUGGESTION AMIS -->
+<section class="section">
+  <h3>Suggestions pour vous · Amis</h3>
+
+  <div class="suggestions">
+
+    <div class="suggest-card">
+      <img src="https://picsum.photos/120?user21">
+      <strong>Sarah</strong>
+      <button class="btn add">Ajouter</button>
+    </div>
+
+    <div class="suggest-card">
+      <img src="https://picsum.photos/120?user22">
+      <strong>Marc</strong>
+      <button class="btn add">Ajouter</button>
+    </div>
+
+    <div class="suggest-card">
+      <img src="https://picsum.photos/120?user23">
+      <strong>Emma</strong>
+      <button class="btn add">Ajouter</button>
+    </div>
+
+  </div>
+</section>
+<section class="section home-section">
+  <div class="section-header">
+    <h3>Clips vidéos</h3>
+    <span class="see-all">Voir tout</span>
+  </div>
+
+  <div class="horizontal-scroll video-scroll">
+
+    <!-- CLIP -->
+    <div class="video-card">
+      <div class="video-thumb">
+        <img src="https://picsum.photos/300/180?video1">
+        <span class="play-btn">▶</span>
+      </div>
+      <strong>Délivre-moi</strong>
+      <span>Bigty · Clip officiel</span>
+    </div>
+
+    <!-- CLIP -->
+    <div class="video-card">
+      <div class="video-thumb">
+        <img src="https://picsum.photos/300/180?video2">
+        <span class="play-btn">▶</span>
+      </div>
+      <strong>Grâce infinie</strong>
+      <span>Visites</span>
+    </div>
+
+    <!-- CLIP -->
+    <div class="video-card">
+      <div class="video-thumb">
+        <img src="https://picsum.photos/300/180?video3">
+        <span class="play-btn">▶</span>
+      </div>
+      <strong>Lumière</strong>
+      <span>Elevation Worship</span>
+    </div>
+
+  </div>
+</section>
+  
+<section class="section home-section">
+  <div class="section-header">
+    <h3>Livres à vendre sur Gomune</h3>
+    <span class="see-all">Voir tout</span>
+  </div>
+
+  <div class="horizontal-scroll books-scroll">
+
+    <!-- LIVRE -->
+    <div class="book-card">
+      <img src="https://picsum.photos/200/280?book1" alt="Livre">
+      <div class="book-info">
+        <strong>Marcher par la foi</strong>
+        <span>John Maxwell</span>
+        <span class="price">12,99 €</span>
+        <button class="btn order">Commander</button>
+      </div>
+    </div>
+
+    <!-- LIVRE -->
+    <div class="book-card">
+      <img src="https://picsum.photos/200/280?book2" alt="Livre">
+      <div class="book-info">
+        <strong>Puissance de la prière</strong>
+        <span>Joyce Meyer</span>
+        <span class="price">9,99 €</span>
+        <button class="btn order">Commander</button>
+      </div>
+    </div>
+
+    <!-- LIVRE -->
+    <div class="book-card">
+      <img src="https://picsum.photos/200/280?book3" alt="Livre">
+      <div class="book-info">
+        <strong>Louange & Victoire</strong>
+        <span>Collectif</span>
+        <span class="price">14,90 €</span>
+        <button class="btn order">Commander</button>
+      </div>
+    </div>
+
+  </div>
+
+  
+  
+<section class="gomune-top10">
+
+  <h2>Top 10 des albums aujourd'hui · France</h2>
+
+  <div class="top10-scroll">
+
+    <div class="top10-item">
+      <span class="rank-bg rank-1">1</span>
+      <div class="album-card">
+        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="">
+        <div class="album-info">
+          <strong>Midnight Flow</strong>
+          <span>HOMURRA · 2024</span>
+          <button>Écouter</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="top10-item">
+      <span class="rank-bg rank-2">2</span>
+      <div class="album-card">
+        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f" alt="">
+        <div class="album-info">
+          <strong>Neon Dreams</strong>
+          <span>HOMURRA · 2023</span>
+          <button>Écouter</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="top10-item">
+      <span class="rank-bg rank-3">3</span>
+      <div class="album-card">
+        <img src="https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2" alt="">
+        <div class="album-info">
+          <strong>Skywave</strong>
+          <span>HOMURRA · 2022</span>
+          <button>Écouter</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="top10-item">
+      <span class="rank-bg rank-4">4</span>
+      <div class="album-card">
+        <img src="https://images.unsplash.com/photo-1521334726092-b509a19597c6" alt="">
+        <div class="album-info">
+          <strong>Echoes</strong>
+          <span>Nova · 2021</span>
+          <button>Écouter</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="top10-item">
+      <span class="rank-bg rank-5">5</span>
+      <div class="album-card">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4" alt="">
+        <div class="album-info">
+          <strong>Night Drive</strong>
+          <span>Lumen · 2020</span>
+          <button>Écouter</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="top10-item">
+      <span class="rank-bg rank-6">6</span>
+      <div class="album-card">
+        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" alt="">
+        <div class="album-info">
+          <strong>Frequency</strong>
+          <span>Pulse · 2024</span>
+          <button>Écouter</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="top10-item">
+      <span class="rank-bg rank-7">7</span>
+      <div class="album-card">
+        <img src="https://images.unsplash.com/photo-1487180144351-b8472da7d491" alt="">
+        <div class="album-info">
+          <strong>Reflections</strong>
+          <span>Aurora · 2019</span>
+          <button>Écouter</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="top10-item">
+      <span class="rank-bg rank-8">8</span>
+      <div class="album-card">
+        <img src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe" alt="">
+        <div class="album-info">
+          <strong>Vibrations</strong>
+          <span>Echo · 2022</span>
+          <button>Écouter</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="top10-item">
+      <span class="rank-bg rank-9">9</span>
+      <div class="album-card">
+        <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81" alt="">
+        <div class="album-info">
+          <strong>Horizons</strong>
+          <span>Atlas · 2021</span>
+          <button>Écouter</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="top10-item">
+      <span class="rank-bg rank-10">10</span>
+      <div class="album-card">
+        <img src="https://images.unsplash.com/photo-1524678606370-a47ad25cb82a" alt="">
+        <div class="album-info">
+          <strong>Afterlight</strong>
+          <span>Solace · 2018</span>
+          <button>Écouter</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<div class="player">
+
+  <img src="https://picsum.photos/80">
+
+  <div class="player-info">
+    <strong>Nuit étoilée</strong>
+    <span>Jordan Merrick</span>
+  </div>
+
+  <!-- BOUTON CAST -->
+  <i class="ph-cast cast-btn"></i>
+
+  <!-- PLAY / PAUSE -->
+  <i class="ph-play-circle"></i>
+
+</div>
+</section>
+  
+<!-- MENU BAS -->
+<nav class="bottom-nav">
+  <div class="nav active"><i class="ph-house"></i><span>Accueil</span></div>
+  <div class="nav"><i class="ph-compass"></i><span>Explorer</span></div>
+  <div class="nav"><i class="ph-broadcast"></i><span>Actu</span></div>
+  <div class="nav"><i class="ph-user"></i><span>Moi</span></div>
+</nav>
+<!-- LECTEUR PRINCIPAL -->
+<div id="apple-player" class="apple-player hidden">
+
+  <div class="player-top">
+    <span id="close-apple">⌄</span>
+  </div>
+
+  <img id="apple-cover" src="https://picsum.photos/600?music">
+
+  <h2 id="apple-title">Nuit étoilée</h2>
+  <p id="apple-artist">Jordan Merrick</p>
+
+  <!-- PROGRESSION -->
+  <input type="range" id="apple-progress" value="0">
+
+  <div class="time">
+    <span id="current-time">0:00</span>
+    <span id="duration">0:00</span>
+  </div>
+
+  <!-- CONTROLS -->
+  <div class="controls-row">
+    <i class="ph-shuffle"></i>
+    <i class="ph-skip-back"></i>
+    <button id="apple-play">
+      <i class="ph-pause"></i>
+    </button>
+    <i class="ph-skip-forward"></i>
+    <i class="ph-repeat"></i>
+  </div>
+
+  <!-- VOLUME -->
+  <div class="volume">
+    <i class="ph-speaker-low"></i>
+    <input type="range" id="volume" value="100">
+  </div>
+<div id="lyrics" class="lyrics">
+  🎵 Paroles synchronisées…
+</div>
+</div>
+  <!-- PAGE ARTISTE (CACHÉE) -->
+<section id="artist-page" class="artist-page hidden">
+
+  <!-- BOUTON RETOUR -->
+  <div class="artist-back">
+    <span id="back-home">← Retour</span>
+  </div>
+
+  </section>
+  
+  <!-- PAGE EXPLORE -->
+<section id="page-explore" class="page hidden">
+<div class="nav" data-page="page-explore">
+  <i class="ph-compass"></i>
+  <span>Explorer</span>
+</div>
+  <!-- HEADER EXPLORE -->
+  <header class="explore-header">
+    <h1>Explorer</h1>
+    <input class="search" placeholder="Rechercher artistes, genres, playlists">
+  </header>
+
+  <!-- SECTION GENRES -->
+  <section class="section">
+    <h3>Genres & Ambiances</h3>
+
+    <div class="explore-grid">
+      <div class="genre-card">🙏 Louange</div>
+      <div class="genre-card">🎹 Adoration</div>
+      <div class="genre-card">🔥 Gospel</div>
+      <div class="genre-card">🎤 Rap chrétien</div>
+      <div class="genre-card">✨ Calme</div>
+      <div class="genre-card">⚡ Énergie</div>
+    </div>
+  </section>
+
+  <!-- ARTISTES POPULAIRES -->
+  <section class="section">
+    <h3>Artistes populaires</h3>
+
+    <div class="horizontal-scroll">
+      <div class="artist-card">
+        <img src="https://picsum.photos/120?31">
+        <span>Hillsong</span>
+      </div>
+
+      <div class="artist-card">
+        <img src="https://picsum.photos/120?32">
+        <span>Bethel</span>
+      </div>
+
+      <div class="artist-card">
+        <img src="https://picsum.photos/120?33">
+        <span>Elevation</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLAYLISTS -->
+  <section class="section">
+    <h3>Playlists recommandées</h3>
+
+    <div class="horizontal-scroll">
+      <div class="card">
+        <img src="https://picsum.photos/200?41">
+        <p>Louange du matin</p>
+      </div>
+
+      <div class="card">
+        <img src="https://picsum.photos/200?42">
+        <p>Adoration</p>
+      </div>
+    </div>
+  </section>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
